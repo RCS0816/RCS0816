@@ -28,8 +28,8 @@ summarylength = 25
     weight = 5
 
 [params]
-    logo = "/images/RCSLogo-wide.png"
-    logo_footer = "/images/RCSImage.png"
+    logo = "images/RCSLogo-wide.png"
+    logo_footer = "images/RCSImage.png"
     #TODO: Favicon
     dateFormat = "26 FEB 1994"
     description = "The Revolutionary Committee of S08-16"
@@ -53,7 +53,7 @@ summarylength = 25
     
     [params.banner]
         enable = true
-        background_image = "/images/RCSImage.jpg"
+        background_image = "images/RCSImage.jpg"
         heading = "Embracing students' freedom, Protecting S08-16"
         tagline = "WE DONT ACTUALLY DO SHIT"
         primary_button = "About Us"

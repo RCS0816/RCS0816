@@ -1,0 +1,100 @@
+baseURL = 'https://rcs.ezntek.com'
+languageCode = 'en-us'
+title = 'The Revolutionary Committee of S08-16'
+title_short = 'The RCS08-16'
+theme = "roxo-hugo-custom"
+summarylength = 25
+
+# some menus
+[menu]
+    [[menu.nav]]
+    name = "Home"
+    url = ""
+    weight = 1
+
+    [[menu.nav]]
+    name = "About Us"
+    url = "about-us"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Our Creations"
+    url = "our-creations"
+    weight = 3
+
+    [[menu.nav]]
+    name = "The Corner of Enlightenment"
+    url = "the-coe"
+    weight = 5
+
+[params]
+    logo = "/images/RCSLogo-wide.png"
+    logo_footer = "/images/RCSImage.png"
+    #TODO: Favicon
+    dateFormat = "26 FEB 1994"
+    description = "The Revolutionary Committee of S08-16"
+    author = "RCS08-16"
+    copyright_text = "All rights reserved by"
+    copyright_link = "https://rcs.ezntek.com/about-us"
+    copyright_name = "The members of RCS08-16"
+
+    [params.contactForm]
+        placeholder_first_name = "First Name"
+        placeholder_last_name = "Last Name"
+        placeholder_email = "E-mail"
+        placeholder_project_type = "Project Type"
+        placeholder_about_the_project = "About the Project"
+        send_message = "Send Message"
+    
+    [params.navAction]
+        enable = true
+        name = "Get In Touch"
+        url = "get-in-touch"
+    
+    [params.banner]
+        enable = true
+        background_image = "/images/RCSImage.jpg"
+        heading = "Embracing students' freedom, Protecting S08-16"
+        tagline = "WE DONT ACTUALLY DO SHIT"
+        primary_button = "About Us"
+        primary_button_url = "about-us"
+        secondary_button = "The Corner of Enlightenment"
+        secondary_button_url = "the-coe"
+    
+    [params.blog]
+        enable = true
+        read_more = "read more"
+
+    [params.portfolio]
+        enable = true
+        title = "What we've done"
+        subtitle = "yay we dissed the school with scrap paper on a wall I think"
+        view_project = ""
+        more_works = ""
+        scroll_down = "scroll down"
+    
+    [params.call_to_action]
+        enable = false # TODO: take sexy images
+
+    [params.footer]
+        qt_print = false
+        
+        [params.footer.contactInfo]
+            title = "Contact Information"
+            address = "13 Tansha St.,<br>#02-01 Kourisa Household<br>Distaye, Southbridge District,<br>Sitaku City, Second Creative, Republic of Sitaku"
+            email = "ofs.rcs0816@gmail.com"
+        
+        [params.footer.sitemap]
+            title = "Sitemap"
+            [[params.footer.sitemap.link]]
+                name = "About Us"
+                url = "about-us"
+            [[params.footer.sitemap.link]]
+                name = "Blog"
+                url = "blog"
+            [[params.footer.sitemap.link]]
+                name = "What we've done (Our Creations)"
+                url = "our-creations"
+            [[params.footer.sitemap.link]]
+                name = "The Corner of Enlightenment"
+                url = "the-coe"

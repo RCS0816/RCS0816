@@ -9,11 +9,10 @@
                 <img src="{{ .avatar | absURL }}" alt="profile picture" class="membercard-member-image">
                 <div class="membercard-member-name">
                     <!-- TODO: less quick-n-dirty solution to wrapping -->
-                    <h2 style="margin: 0;white-space:nowrap;">{{ .name }}</h2>
+                    <h2 style="margin: 0;">{{ .name }}</h2>
                     <p style="margin: 0;">{{ .role }}</p>
                 </div>
             </div>
-            <div></div>
             <div class="membercard-description">
                 <p>{{ .description }}</p>
                 

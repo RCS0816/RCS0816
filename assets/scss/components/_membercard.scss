@@ -2,10 +2,13 @@
   background-color: $aboutcard-color;
   border-radius: 2rem;
   padding: 0.25rem;
+  display: flex;
+  flex-direction: column;
 
   &-member {
     display: flex;
     flex-direction: row;
+    position: relative;
     padding: 1rem;
 
     &-name {
@@ -36,6 +39,7 @@
   }
 
   &-description {
+    position: relative;
     display: flex;
     flex-direction: column;
     margin: 1.5rem;

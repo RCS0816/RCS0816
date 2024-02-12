@@ -1,0 +1,36 @@
+{{ with .Site.Data.members }}
+    <p><b>We are the Revolutionary Committee of S08-16.</b></p>
+    <p>{{ .description }}</p>
+    <br />
+
+    {{ range $member := .members }}
+        <div class="membercard">
+            <div class="membercard-member">        
+                <img src="/images/RCSImage.jpg" alt="profile picture" class="membercard-member-image">
+                <div class="membercard-member-name">
+                    <h2 style="margin: 0;">{{ .name }}</h2>
+                    <p style="margin: 0;">{{ .role }}</p>
+                </div>
+            </div>
+            <div class="membercard-description">
+                <p>{{ .description }}</p>
+                
+                <div class="membercard-socials">
+                    {{ with .discord }}
+                        <div class="membercard-socials-item">
+                            <span class="fa-brands fa-discord" style="padding-right: 5px; font-size: small;" />
+                            <span style="font-family: 'IBM Plex Mono', monospace; font-size: medium;">{{ . }}</span>
+                        </div>
+                    {{ end }}
+
+                    {{ with .email }}
+                        <div class="membercard-socials-item">
+                            <span class="fa-solid fa-envelope" style="padding-right: 5px; font-size: small;" />
+                            <span style="font-family: 'IBM Plex Mono', monospace; font-weight: 400; font-size: medium;">{{ . }}</span>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    {{ end }}
+{{ end }}

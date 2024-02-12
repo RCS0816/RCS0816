@@ -6,11 +6,13 @@
       <div class="col-lg-8">
         <article class="site-blog-details">
           <h2 class="blog-title">{{ .Title }}</h2>
-          {{ .Content }}
+
+          {{ partial "members.html" . }}
         </article>
       </div>
     </div>
   </div>
+
 </section>
 
 {{ end }}

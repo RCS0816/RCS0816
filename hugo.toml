@@ -67,7 +67,14 @@ summarylength = 25
         scroll_down = "scroll down"
     
     [params.call_to_action]
-        enable = false # TODO: take sexy images
+        enable = true # TODO: take sexy images
+        background_image = "/images/Whiteboard.jpg"        
+        title = "WE NEED YOU!"
+        primary_button = "Contact our team for Applications"
+        primary_button_url = "about-us"
+        secondary_button = "But I'm a filthy commie ☭ ..."
+        secondary_button_url = "go-to-hell"
+
 
     [params.footer]
         qt_print = false

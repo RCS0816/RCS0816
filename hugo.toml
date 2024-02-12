@@ -37,7 +37,7 @@ summarylength = 25
     author = "RCS08-16"
     copyright_text = "All rights reserved by"
     copyright_link = "https://rcs0816.ezntek.com/about-us"
-    copyright_name = "The members of RCS08-16"
+    copyright_name = "the members of RCS08-16"
     
     [params.navAction]
         enable = true
@@ -48,7 +48,7 @@ summarylength = 25
         enable = true
         background_image = "/images/RCSImage.jpg"
         heading = "Embracing students' freedom, Protecting S08-16"
-        tagline = "WE DONT ACTUALLY DO SHIT"
+        tagline = "RAIFA S08-16, HE RAIFA HORÏSONI KYEDOQARRÉYAZ ALÉSRA!"
         primary_button = "About Us"
         primary_button_url = "about-us"
         secondary_button = "The Corner of Enlightenment"

@@ -3,12 +3,11 @@ description = """A group dedicated to sticking random pieces of paper on the wal
                  abilities that allows us to lead the holy land to success."""
 
 [[members]]
-avatar = "/images/RCSImage.jpg"
-name = "JIMMY JILL BOB"
-role = "Lead web designer & manager of foreign relations"
-description = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet varius leo,
-                 at bibendum nibh. Aliquam augue sapien, ornare et leo sit amet, tristique feugiat nisl.
-                 Curabitur sit amet porttitor nibh. Nam tristique non augue eu placerat. Nulla accumsan
-                 bibendum eros laoreet elementum."""
-discord = "jimmyjillbob"
-email = "jimmy@jillbob.net"
+avatar = "/images/Dr_Eksplosive.jpg"
+name = "DR. EKSPLOSIVE"
+role = "The one who gets things done"
+description = """An insane asylum patient who escaped and somehow has made his way into the education system.
+                 Helped prevent a massive conflict following the email template scandal of November '23. Argued
+                 and reduced exams, changed TOK to become study periods with help of the Mail Group. """
+discord = "ekolapiye"
+email = "workeklavya@gmail.com"

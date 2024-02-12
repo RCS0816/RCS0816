@@ -3,6 +3,14 @@ description = """A group dedicated to sticking random pieces of paper on the wal
                  abilities that allows us to lead the holy land to success."""
 
 [[members]]
+avatar = "/images/Kasreti.png"
+name = "KASRETI"
+role = "Eternal Leader #1 & First president"
+description = """Founded the Corner of Enlightenment in February 2023, and the Revolutionary Committee
+              of S08-16 in September 2023."""
+discord = "Kasreti"
+
+[[members]]
 avatar = "/images/ezntek.png"
 name = "EZNTEK"
 role = "Guy who tries to do everything (made this website)"

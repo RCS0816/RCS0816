@@ -1,10 +1,13 @@
 +++
-title = 'Test Article'
+title = 'Test Article 2'
 date = 2024-02-11T22:13:29+08:00
 draft = false
 author = "Eason Qin"
-image = "/images/Chicken.jpg"
+#image = "/images/Chicken.jpg"
+tags = [ "foo", "bar" ]
 +++
+
+# Curvata sit domos terrasque deae tenuesque titulum
 
 ## Est anili dixit ambo spemque
 

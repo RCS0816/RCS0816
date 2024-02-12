@@ -1,9 +1,11 @@
 +++
-title = 'Test Article'
+title = 'Test Article 3'
 date = 2024-02-11T22:13:29+08:00
 draft = false
 author = "Eason Qin"
 image = "/images/Chicken.jpg"
+
+tags = [ "bar", "baz" ]
 +++
 
 ## Est anili dixit ambo spemque

@@ -1,0 +1,10 @@
+{{ with .Params.tags }}
+    <div class="site-tags">
+        {{ range $tag := . }}
+            <div class="site-tags-tag">
+                <span class="fa-solid fa-tag" style="margin-right: 5px; font-size:small;"></span>
+                <span style="font-family: 'Inter', sans-serif; font-size: medium;">{{ $tag }}</span>        
+            </div>
+        {{ end }}
+    </div>
+{{ end }}

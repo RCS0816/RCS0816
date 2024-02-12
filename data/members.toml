@@ -3,6 +3,18 @@ description = """A group dedicated to sticking random pieces of paper on the wal
                  abilities that allows us to lead the holy land to success."""
 
 [[members]]
+avatar = "/images/ezntek.png"
+name = "EZNTEK"
+role = "Guy who tries to do everything (made this website)"
+description = """Ezntek is a relatively new addition to RCS08-16, having joined after the opposing OFS Students'
+                 Communist Party revealed their intentions of starting a stalinist dictatorship in the room.
+                 He is in charge of all foreign relations with other committies, parties or other political
+                 entities, web and graphic design, and is next in line for leadership after the eternal leaders'
+                 physical departure from the school."""
+discord = "ezntek"
+email = "eason@ezntek.com"
+
+[[members]]
 avatar = "/images/Dr_Eksplosive.jpg"
 name = "DR. EKSPLOSIVE"
 role = "The one who gets things done"

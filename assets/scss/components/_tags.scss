@@ -6,7 +6,9 @@
     margin-bottom: 1rem;
 
     &-tag {
-      display: inline-block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background-color: $gray;
       padding: 1rem;
       padding-top: 0.25rem;

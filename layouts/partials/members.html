@@ -6,7 +6,7 @@
     {{ range .members }}
         <div class="membercard">
             <div class="membercard-member">        
-                <img src="/images/RCSImage.jpg" alt="profile picture" class="membercard-member-image">
+                <img src="{{ .avatar | absURL }}" alt="profile picture" class="membercard-member-image">
                 <div class="membercard-member-name">
                     <!-- TODO: less quick-n-dirty solution to wrapping -->
                     <h2 style="margin: 0;white-space:nowrap;">{{ .name }}</h2>

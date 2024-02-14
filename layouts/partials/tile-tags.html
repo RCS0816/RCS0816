@@ -1,0 +1,19 @@
+    <div class="blogtile-tags">
+        {{ with .Params.tags }}
+            {{ range .}}
+                <div class="blogtile-tag">
+                    <span class="fa-solid fa-tag" style="margin:0; margin-right: 5px; font-size:small;"></span>
+                    <span class="blogtile-tag-text" style="margin:0; margin-left: 5px; font-family: 'Inter', sans-serif; font-size: medium;">{{ . }}</span>
+                </div>
+            {{ end }}    
+        {{ end }}
+        {{ with .Params.generation }}
+            {{ if (gt . 9) }}
+            {{ else }}
+            <div class="blogtile-tag">
+                <span class="fa-solid fa-clock" style="margin:0; margin-right: 5px; font-size:small;"></span>
+                <span class="blogtile-tag-text" style="margin:0; margin-left: 5px; font-family: 'Inter', sans-serif; font-size: medium;">{{ . }}</span>
+            </div>
+            {{ end }}
+        {{ end }}
+    </div>

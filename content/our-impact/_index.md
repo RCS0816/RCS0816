@@ -9,5 +9,3 @@ Quoting [**Dr. Eksplosive**](/about-us),
 - spanish department for the shenanigans (especially mimi)
 - formative paper 2 for the englitards
 - more freedom for the seniors committee
-
-arstarst

@@ -18,7 +18,7 @@ summarylength = 25
     weight = 2
 
     [[menu.nav]]
-    name = "Our Imapact"
+    name = "Our Impact"
     url = "our-impact"
     weight = 3
 

@@ -2,7 +2,7 @@
 title: What We've done
 ---
 
-**NOTE: this is currently a placeholder**.
+Quoting [**Dr. Eksplosive**](/about-us),
 
 - reduce exam papers this sem (all subjects required to remove/turn 1 paper into formative)
 - change TOK to all core for G12s

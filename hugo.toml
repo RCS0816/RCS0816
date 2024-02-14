@@ -18,8 +18,8 @@ summarylength = 25
     weight = 2
 
     [[menu.nav]]
-    name = "Our Creations"
-    url = "our-creations"
+    name = "Our Imapact"
+    url = "our-impact"
     weight = 3
 
     [[menu.nav]]
@@ -36,7 +36,7 @@ summarylength = 25
     description = "The Revolutionary Committee of S08-16"
     author = "RCS08-16"
     copyright_text = "All rights reserved by"
-    copyright_link = "https://rcs0816.ezntek.com/about-us"
+    copyright_link = "https://rcs0816.org/about-us"
     copyright_name = "the members of RCS08-16"
     
     [params.navAction]
@@ -61,7 +61,12 @@ summarylength = 25
     [params.portfolio]
         enable = true
         title = "What we've done"
-        subtitle = "yay we dissed the school with scrap paper on a wall I think"
+        subtitle = """Our mission is to protect the spirit of S08-16 like when it was first created.
+                    We ensure the happiness of everybody who chooses to dwell in our room, provide fun
+                    activities, and give the students the full right to voice their concerns via the 
+                    corner of enlightenment. Our achievements also include the reduction of exam papers,
+                    more freedom for the G12 seniors' committee, and the defense of S08-16 against
+                    a communist revolution by the OFS Students' Communist Party (now defunct)."""
         view_project = ""
         more_works = ""
         scroll_down = "scroll down"
@@ -75,7 +80,6 @@ summarylength = 25
         secondary_button = "But I'm a filthy commie ☭ ..."
         secondary_button_url = "go-to-hell"
 
-
     [params.footer]
         qt_print = false
 
@@ -85,7 +89,7 @@ summarylength = 25
         [params.footer.contactInfo]
             title = "Contact Information"
             address = "13 Tansha St.,<br>#02-01 Kourisa Household<br>Distaye, Southbridge District,<br>Sitaku City, Second Creative, Republic of Sitaku"
-            email = "ofs.rcs0816@gmail.com"
+            email = "horison.rcs0816@gmail.com"
         
         [params.footer.sitemap]
             title = "Sitemap"
@@ -93,8 +97,8 @@ summarylength = 25
                 name = "About Us"
                 url = "about-us"
             [[params.footer.sitemap.link]]
-                name = "What we've done (Our Creations)"
-                url = "our-creations"
+                name = "Our Impact"
+                url = "our-impact"
             [[params.footer.sitemap.link]]
                 name = "The Corner of Enlightenment"
                 url = "the-coe"

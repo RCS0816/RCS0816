@@ -33,7 +33,24 @@
           </ul>
         </div>
       </div>
-      {{ end }} {{ with .Site.Params.footer.social }}
+      {{ end }}
+      <div class="col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title"> Note </h5>
+          <p class="site-footer-widget-description">
+            We are not officially endorsed by nor affiliated with the Overseas
+            Family School in Singapore. We simply operate within their rules and
+            regulations.
+            <br />
+            Ultimately, this political party is satire; we try our best to
+            create an impact on the smaller community of S08-16 but the party
+            operates more like an event organizer and leadership group to ensure
+            organization and to reduce negative chaos in the room. We follow no
+            major political ideologies, such as communism.
+          </p>
+        </div>
+      </div>
+      {{ with .Site.Params.footer.social }}
       <div class="col-lg-2 col-md-6">
         <div class="site-footer-widget">
           <h5 class="site-footer-widget-title">{{ .title }}</h5>

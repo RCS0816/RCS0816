@@ -1,10 +1,19 @@
-{{ with .Params.tags }}
-    <div class="site-tags">
+<div class="site-tags">
+    {{ with .Params.tags }}
         {{ range . }}
             <div class="site-tags-tag">
                 <span class="fa-solid fa-tag" style="margin-right: 5px; font-size:small;"></span>
                 <span style="font-family: 'Inter', sans-serif; font-size: medium;">{{ . }}</span>        
             </div>
         {{ end }}
-    </div>
-{{ end }}
+    {{ end }}
+    {{ with .Params.generation }}
+        {{ if (gt . 9) }}
+        {{ else }}
+        <div class="site-tags-tag">
+            <span class="fa-solid fa-clock" style="margin:0; margin-right: 5px; font-size:small;"></span>
+            <span style="margin:0; margin-left: 5px; font-family: 'Inter', sans-serif; font-size: medium;">COE Generation {{ . }}</span>
+        </div>
+        {{ end }}
+    {{ end }}
+</div> 

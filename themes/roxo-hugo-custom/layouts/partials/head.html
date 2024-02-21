@@ -2,6 +2,8 @@
   <meta charset="utf-8" />
   <title>{{ .Title }}</title>
 
+  <!-- font awesome -->
+
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -27,4 +29,5 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="{{ .Site.Params.favicon_shortcut_icon | absURL }}" type="image/x-icon" />
   <link rel="icon" href="{{ .Site.Params.favicon_icon | absURL }}" type="image/x-icon" />
+
 </head>

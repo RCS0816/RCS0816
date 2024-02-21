@@ -43,6 +43,7 @@
     }
 
     &-image {
+      background-color: $aboutcard-color;
       object-fit: cover;
       border-radius: 50%;
       width: 80px;
@@ -53,6 +54,7 @@
   }
 
   &-description {
+    background-color: $aboutcard-color;
     display: flex;
     flex-direction: column;
     margin: 1.5rem;
@@ -61,6 +63,7 @@
   }
 
   &-socials {
+    background-color: $aboutcard-color;
     font-size: larger;
     display: flex;
     flex-direction: row;
@@ -69,6 +72,7 @@
 
     &-item {
       display: flex;
+      background-color: $aboutcard-color;
       justify-content: center;
       align-items: center;
       background-color: $gray;

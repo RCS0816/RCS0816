@@ -1,5 +1,5 @@
 +++
-title = '{{ replace .File.ContentBaseName "-" " " | replace .File.ContentBaseName "_" " " | title }}'
+title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = {{ .Date }}
 generation = 3
 image = '/coe-assets/foobar.jpg' # Your cover image here (can be removed & path may be changed)

@@ -1,4 +1,5 @@
 +++
+author = 'ezntek'
 title = 'We are prepared for an invasion (open letter)'
 date = 2024-02-22T12:09:41+08:00
 generation = 3

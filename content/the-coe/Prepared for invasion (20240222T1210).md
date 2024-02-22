@@ -9,7 +9,7 @@ summary = ''                     # If the default summary is too long, put
                                  # something shorter here. if not, remove this line.
 +++
 
-After many bold claims and no actions taken except for the cowardly theft of the "Mr. Marcos, we need help" sign, and neutral historical archives, citing reasons of historical revisionism for the latter. Preparations of war were made on our side, and possibly theirs. This situation is reaching a boiling point, and so a call for war was made in this open letter.
+After many bold claims and no actions taken except for the cowardly theft of the "Mr. Marcos, we need help" sign, and displacement and interruption of the archival of neutral historical archives, citing reasons of historical revisionism for the latter. Preparations of war were made on our side, and possibly theirs. This situation is reaching a boiling point, and so a call for war was made in this open letter.
 
 We wish them luck on their multi-semester endeavours. The original spirit of S08-16 must not die.
 

@@ -5,7 +5,7 @@ date = 2024-02-22T12:09:41+08:00
 generation = 3
 image = '/coe-assets/gen3/prepared_for_war_20240222T1210.jpg' # Your cover image here (can be removed & path may be changed)
 tags = [ 'coe-post' ]            # can be altered
-summary = ''                     # If the default summary is too long, put
+summary = 'AMITPP makes nothing but bold claims and cowardly actions that demonstrates that they have no power. This open letter is to them.'                     # If the default summary is too long, put
                                  # something shorter here. if not, remove this line.
 +++
 
